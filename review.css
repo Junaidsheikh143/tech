@@ -1,0 +1,89 @@
+#reviews{
+    padding: 50px;
+    background-image: url(../images/site-logo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.menu{
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-links{
+    margin: 20px 15px;
+}
+.menu-links a{
+    text-decoration: none;
+    color: #626262;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.menu-links a:hover{
+    color: #3b4fe4;
+}
+.reviews-heading-row{
+    display: flex;
+    margin: 30px 0px;
+    font-size:small;
+}
+.reviews-heading{
+    flex :1;
+    font-size: small;
+}
+.small-heading-gray{
+    font-size: 1.7rem;
+    color: #44527b;
+    font-weight: bold;
+}
+.reviews-heading h2{
+    font-size: 22px;
+    color :#333333
+    text-transform : capitalize;
+}
+.reviews-btn-container{
+    flex: 1;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    
+}
+.btn-outline-blue{
+    border: color #384fe4;
+    color: #384fe4;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.btn-outline-blue:hover{
+    background-color: #384fe4;
+    color: #fff;
+}
+.reviews-row{
+    display: flex;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 40px 80px 0 rgba(56, 55, 55, 0.2), 0 50px 100px 0 rgba(195, 194, 194, 0.19);
+    margin:40px 20px ;
+    border-radius: 10px;
+    padding: 0px 30px 20px 30px;
+}
+.review-img img{
+    border-radius:10px;
+    box-shadow: 0 5px 8px rgba(56, 56, 56,0.2) 0 15px 15px 0 rgba(36, 36, 36, 0.19);
+    margin-top: -40px;
+    
+}
+.review-message{
+    color: #333333;
+    margin: 30px 0px;
+    line-height: 25px;
+}
+.student-name{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
